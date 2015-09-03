@@ -10,4 +10,4 @@ We will be making a simple game. What kind of game? We do not know yet. This wil
 - What language(s) are we going to use?
 - What kind of game are we going to make?
 
-(Feel free to add other that you think are **relevant**)
+(Feel free to add other questions that you think are **relevant**)
