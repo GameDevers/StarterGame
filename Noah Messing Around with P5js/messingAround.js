@@ -29,7 +29,6 @@ function init(){
 		}
 	}
 
-
 	//set start location of green and red
 	var x1 = floor(random(columns));
 	var y1 = floor(random(rows));
@@ -52,6 +51,49 @@ function init(){
 			break;
 		}
 	}
+
+	while(true){
+		var x4 = floor(random(columns));
+		var y4 = floor(random(rows));
+		if(x4 != x1 && y4 != y1 && x4 != x2 && y4 != y2 && x4 != x3 && y4 != y3){
+			board[x4][y4] = 4; //reds color
+			break;
+		}
+	}
+
+	while(true){
+		var x5 = floor(random(columns));
+		var y5 = floor(random(rows));
+		if(x5 != x1 && 
+			y5 != y1 && 
+			x5 != x2 && 
+			y5 != y2 && 
+			x5 != x3 && 
+			y5 != y3 &&
+			x5 != x4 &&
+			y5 != y4){
+			board[x5][y5] = 5; //reds color
+			break;
+		}
+	}
+
+	while(true){
+		var x6 = floor(random(columns));
+		var y6 = floor(random(rows));
+		if(x6 != x1 && 
+			y6 != y1 && 
+			x6 != x2 && 
+			y6 != y2 && 
+			x6 != x3 && 
+			y6 != y3 &&
+			x6 != x4 &&
+			y6 != y4 &&
+			x6 != x5 &&
+			y6 != y5){
+			board[x6][y6] = 6; //reds color
+			break;
+		}
+	}
 }
 
 function draw(){
@@ -70,6 +112,15 @@ function draw(){
 			}
 			if(board[i][j] == 3){
 				fill(0, 0, 255);
+			}
+			if(board[i][j] == 4){
+				fill(255, 255, 0);
+			}
+			if(board[i][j] == 5){
+				fill(0, 255, 255);
+			}
+			if(board[i][j] == 6){
+				fill(255, 0, 255);
 			}
 			stroke(0);
 			rect(i*w, j*w, w-1, w-1);
