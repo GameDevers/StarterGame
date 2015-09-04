@@ -16,3 +16,7 @@ We will be making a simple game. What kind of game? We do not know yet. This wil
 
 - [High level design session 1 - Game Things](https://docs.google.com/document/d/1tqcYsfFIIPfhYwyFhuZqsryrBQaK5zgdbbcvv3Z0ZgE/edit)
 - [Starter Game Ideas](https://docs.google.com/document/d/1pkMCapbmguorgHq6Qa0pGMGFSolUVom1EytPw2_szUk/edit)
+
+###Epics
+
+- [Version 1.0 Epic - Epic 001](https://docs.google.com/document/d/1FTm-DekRQrVIbsyEW9YCVw9W8vyB9isE7MhUW4c0Ouo/edit)
