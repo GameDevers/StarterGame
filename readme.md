@@ -11,3 +11,7 @@ We will be making a simple game. What kind of game? We do not know yet. This wil
 - What kind of game are we going to make?
 
 (Feel free to add other questions that you think are **relevant**)
+
+###Links to documents on Google Drive
+
+[High level design session 1 - Game Things](https://docs.google.com/document/d/1tqcYsfFIIPfhYwyFhuZqsryrBQaK5zgdbbcvv3Z0ZgE/edit)
