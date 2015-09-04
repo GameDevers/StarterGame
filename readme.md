@@ -6,9 +6,9 @@ We will be making a simple game. What kind of game? We do not know yet. This wil
 
 ###Some Questions we need to think about:
 
-- What platform are we developing for?
-- What language(s) are we going to use?
-- What kind of game are we going to make?
+- What platform are we developing for? - Since this is our first stab at this we are gonna go web.
+- What language(s) are we going to use? - Since we are going web we are gonna use HTML and JavaScript (P5.js)
+- What kind of game are we going to make? - Some form of platformer. I am sure it will evolve once we pick up speed.
 
 (Feel free to add other questions that you think are **relevant**)
 

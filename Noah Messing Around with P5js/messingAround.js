@@ -5,7 +5,7 @@ var board;
 var next;
 
 function setup(){
-	canvas = createCanvas(720, 480);
+	canvas = createCanvas(window.innerWidth, window.innerHeight);
 	w = 20;
 	columns = floor(width/w);
 	rows = floor(height/w);
