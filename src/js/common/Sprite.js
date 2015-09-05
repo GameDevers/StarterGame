@@ -5,9 +5,17 @@
 	the Entity it is attached to can draw it to the screen.
 */
 
+blah = function(){
+	return "BLAH";
+}
+
 function Sprite(imagePath, numOfFrames){
 	this.imageArray = new Array(numOfFrames);
 	this.imageIndex = 0;
+
+	for(var i = 0; i < numOfFrames; i++){
+		this.imageArray[i] = loadImage(imagePath[0]+(i+1).toString()+imagePath[1]);
+	}
 
 	/*
 		This function is used for sprites that have multiple frames. Every tick the current frame
