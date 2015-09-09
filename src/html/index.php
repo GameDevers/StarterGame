@@ -1,1 +1,1 @@
-<? php incude_once("index.html"); ?>
+<? php incude_once("home.html"); ?>
