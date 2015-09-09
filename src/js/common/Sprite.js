@@ -14,7 +14,7 @@ function Sprite(imagePath, numOfFrames){
 	this.imageIndex = 0;
 
 	for(var i = 0; i < numOfFrames; i++){
-		this.imageArray[i] = loadImage(imagePath[0]+(i+1).toString()+imagePath[1]);
+		this.imageArray[i] = p5.prototype.loadImage(imagePath[0]+(i+1).toString()+imagePath[1]);
 	}
 
 	/*
