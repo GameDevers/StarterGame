@@ -12,7 +12,11 @@ function Entity(pathForSpriteAssest, numberOfFrames, x, y){
 	this.y = y;
 
 	//draw the Sprite at x, y to the canvas
-	this.draw() = function (){
+	this.draw = function (){
+		p5.image(this.sprite.currentFrame, this.x, this.y);
+	}
 
+	this.update = function(){
+		this.sprite.updateFrame();
 	}
 }

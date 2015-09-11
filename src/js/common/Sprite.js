@@ -23,15 +23,15 @@ function Sprite(imagePath, numOfFrames){
 		of the sprite should be drawn. It also checks to make sure that the index for the images
 		loop around to start the fram sequence over.
 	*/
-	this.nextImage = function (){
-		this.imageIndex += 1;
-		if(this.imageIndex >= numOfFrames){
-			this.imageIndex = 0;
+	this.nextFrame = function (){
+		this.currentFrameIndex += 1;
+		if(this.currentFrameIndex >= numOfFrames){
+			this.currentFrameIndex = 0;
 		}
 	}
 
-	this.updateImage = function (){
-		this.nextImage();
-		this.currentImage = this.imageArray[this.imageIndex];
+	this.updateFrame = function (){
+		this.nextFrame();
+		this.currentFrame = this.frameArray[this.currentFrameIndex];
 	}
 }
